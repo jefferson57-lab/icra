@@ -801,20 +801,23 @@ export default function ClimateInstituteWebsite() {
             <div className="flex flex-col lg:flex-row gap-16 items-center">
               <div className="flex-1 space-y-8">
                 <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-                  Led by Experts, Driven by <span className="text-[#2D6A4F] italic">Passion</span>
+                  Our Founder:  <span className="text-[#2D6A4F] italic">Dr. STELLA WANJALA</span>
                 </h2>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Our team brings together scientists, policy experts, and community leaders from across the globe, united by a singular focus: Africa's climate restoration.
+                  Dr. Stella Wanjala is the Founder and Lead Researcher at ICRA, bringing over 25 years of experience in community development, climate action, and the critical intersections between environmental health and human well-being.
+As a dedicated Lecturer in the Department of Biological Sciences (Environmental Conservation) at Masinde Muliro University of Science and Technology, Dr. Wanjala embodies the Practo-Academia model. She translates academic rigor into practical, community-led solutions.
+Her leadership extends to pioneering roles, including serving as Project Lead for the world's first women-led water fund, The River Yala Water Fund, in partnership with The Nature Conservancy. She is also a Co-Founder and Director of Women in Water and Natural Resources Conservation (WWANC) .
+Throughout her distinguished career, Dr. Wanjala has collaborated with leading organizations such as GIZ, The Nature Conservancy, the International Tree Foundation (ITF), the World Resources Institute (WRI), and the Women Earth Alliance. Her work consistently champions Nature-based Solutions, water and food security, and the empowerment of communities to lead their own development. Her passion lies in bridging the gap between high-level policy, academic knowledge, and tangible impact on the ground.
                 </p>
                 <button className="rounded-full px-8 h-14 bg-[#2D6A4F] text-white hover:bg-[#52B788]-700 shadow-lg transition-all font-semibold">Meet the Team</button>
               </div>
               <div className="flex-1 grid grid-cols-2 gap-4">
                 <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg translate-y-8">
-                  <img src="/images/image_1.jpg" alt="Leader" className="w-full h-full object-cover" />
+                  <img src="/images/dr-stella.jpg" alt="Leader" className="w-full h-full object-cover" />
                 </div>
-                <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/image_2.jpg" alt="Leader" className="w-full h-full object-cover" />
-                </div>
+                {/* <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
+                  <img src="/images/dr-paul.jpg" alt="Leader" className="w-full h-full object-cover" />
+                </div> */}
               </div>
             </div>
           </div>
@@ -881,10 +884,11 @@ export default function ClimateInstituteWebsite() {
                 </li>
                 <li className="flex items-center gap-3 text-white/70">
                   <Mail className="w-5 h-5 shrink-0 text-[#52B788]" />
-                  <span>climaterestorationforafrica@gmail.com</span>
+                  <span>climaterestorationafrica@gmail.com</span>
                 </li>
               </ul>
             </div>
+
 
             {/* Newsletter */}
             {/* <div>
