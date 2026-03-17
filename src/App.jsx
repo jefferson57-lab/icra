@@ -117,9 +117,9 @@ export default function ClimateInstituteWebsite() {
               >
                 {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
               </button>
-              <button className="px-5 py-2.5 bg-[#52B788] hover:bg-[#2D6A4F] rounded-lg text-sm font-semibold text-white transition-all duration-300">
+              {/* <button className="px-5 py-2.5 bg-[#52B788] hover:bg-[#2D6A4F] rounded-lg text-sm font-semibold text-white transition-all duration-300">
                 Plant Trees
-              </button>
+              </button> */}
             </div>
 
             {/* Mobile menu button */}
@@ -188,16 +188,16 @@ export default function ClimateInstituteWebsite() {
               Science-Driven <span className="text-[#52B788] italic">Climate Restoration</span> for Africa
             </h1>
             <p className="text-xl text-slate-200 leading-relaxed max-w-2xl">
-              I.C.R.A is dedicated to reversing the impacts of climate change across the African continent through innovative restoration technologies and strategic partnerships.
+              Empowering communities across Africa to lead climate and health solutions through citizen science, bridging research and real-world action. We integrate innovation, local knowledge, and inclusive collaboration to drive sustainable change in community health, water security, and agri-food systems.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button onClick={() => setActivePage('impact')} className="rounded-full text-lg px-8 h-14 bg-[#52B788] text-white hover:bg-[#2D6A4F] shadow-lg transition-all flex items-center justify-center font-semibold">
+              <button onClick={() => setActivePage('restoration')} className="rounded-full text-lg px-8 h-14 bg-[#52B788] text-white hover:bg-[#2D6A4F] shadow-lg transition-all flex items-center justify-center font-semibold">
                 Explore Our Programs
                 <ArrowRight className="ml-2 w-5 h-5" />
               </button>
-              <button className="rounded-full text-lg px-8 h-14 bg-white text-slate-950 hover:bg-slate-100 shadow-lg transition-all font-semibold">
+              {/* <button className="rounded-full text-lg px-8 h-14 bg-white text-slate-950 hover:bg-slate-100 shadow-lg transition-all font-semibold">
                 Join the Network
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default function ClimateInstituteWebsite() {
           </div>
           <div className="w-px h-12 bg-white/10" />
           <div className="space-y-1">
-            <p className="text-[#52B788] text-4xl font-bold">50+</p>
+            <p className="text-[#52B788] text-4xl font-bold">10+</p>
             <p className="text-white/60 text-sm font-medium uppercase tracking-wider">Strategic Partners</p>
           </div>
         </div>
@@ -271,7 +271,7 @@ export default function ClimateInstituteWebsite() {
             <p className="text-white/60 text-xs uppercase mt-2">Trees Planted</p>
           </div>
           <div>
-            <p className="text-[#52B788] text-4xl font-bold">50+</p>
+            <p className="text-[#52B788] text-4xl font-bold">10+</p>
             <p className="text-white/60 text-xs uppercase mt-2">Strategic Partners</p>
           </div>
         </div>
@@ -346,13 +346,13 @@ export default function ClimateInstituteWebsite() {
                 Whether you're a potential strategic partner, a researcher, or a community leader, your voice and expertise are vital to our mission.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
-                <button className="rounded-full text-lg px-8 h-14 bg-[#52B788] text-white hover:bg-[#2D6A4F] shadow-lg transition-all font-semibold flex items-center justify-center">
+                <button onClick={() => setActivePage('contact')} className="rounded-full text-lg px-8 h-14 bg-[#52B788] text-white hover:bg-[#2D6A4F] shadow-lg transition-all font-semibold flex items-center justify-center">
                   Partner With I.C.R.A
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </button>
-                <button className="rounded-full text-lg px-8 h-14 bg-white text-slate-900 hover:bg-slate-100 shadow-lg transition-all font-semibold">
+                {/* <button className="rounded-full text-lg px-8 h-14 bg-white text-slate-900 hover:bg-slate-100 shadow-lg transition-all font-semibold">
                   Download 2024 Impact Report
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -579,7 +579,7 @@ export default function ClimateInstituteWebsite() {
           <div className="grid lg:grid-cols-2 gap-12 mb-20">
             {/* Left Column - Inquiry Form */}
             <div>
-              <h2 className="text-3xl font-bold mb-8">Send us an Inquiry</h2>
+              <h2 className="text-3xl font-bold mb-8">Explore Partnership Opportunities — Inquiries</h2>
               <form className="space-y-6">
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-700'}`}>Full Name</label>
@@ -690,7 +690,7 @@ export default function ClimateInstituteWebsite() {
                   <div className="flex items-start gap-4">
                     <Phone className="w-6 h-6 text-[#52B788] flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold mb-1">+254 (0) 713 123 456</p>
+                      <p className="font-semibold mb-1">+254 (0) 725 216 292</p>
                       <p className={isDarkMode ? 'text-slate-400' : 'text-slate-600'}>Available Monday-Friday, 9am-5pm EAT</p>
                     </div>
                   </div>
@@ -699,7 +699,7 @@ export default function ClimateInstituteWebsite() {
                     <Globe className="w-6 h-6 text-[#52B788] flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold mb-1">Global Presence</p>
-                      <p className={isDarkMode ? 'text-slate-400' : 'text-slate-600'}>Active in 18 African countries with field offices and research centers</p>
+                      <p className={isDarkMode ? 'text-slate-400' : 'text-slate-600'}>Active in African countries with field offices and research centers</p>
                     </div>
                   </div>
                 </div>
@@ -718,9 +718,27 @@ export default function ClimateInstituteWebsite() {
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-12 text-center">
             <div className="max-w-3xl mx-auto space-y-6">
               <h1 className="text-5xl md:text-7xl font-bold">About I.C.R.A</h1>
-              <p className="text-xl text-slate-300 leading-relaxed">
-                We are a pan-African institute dedicated to the scientific restoration of ecosystems and the stabilization of the continent's climate.
-              </p>
+              <p className="text-lg md:text-2xl font-medium">
+  The Institute of Climate Restoration for Africa (ICRA) is a pioneering Kenyan organization dedicated to transforming how climate and health challenges are addressed across the continent.
+
+  <br /><br />
+
+  We bridge academic research and grassroots practice through a practo-academia model, providing digital and in-person training for practitioners, fellows, and interns. Our work empowers communities through citizen science to lead solutions in community health, water security, and agri-food systems.
+
+  <br /><br />
+
+  By integrating digital tools for climate adaptation and mitigation, we ensure solutions are innovative, inclusive, and rooted in local realities.
+
+  <br /><br />
+
+  Our philosophy centers on democratizing knowledge—repositioning citizens as co-creators and lead researchers. Through ICRA Hubs, we foster collaboration among communities, academics, and policymakers, amplifying the voices of those most affected.
+
+  <br /><br />
+
+  <span className="text-slate-400 text-sm">
+    📍 Nairobi, Kenya &nbsp;•&nbsp; 🌍 Across Africa
+  </span>
+</p>
             </div>
           </div>
         </section>
@@ -735,7 +753,7 @@ export default function ClimateInstituteWebsite() {
                 </div>
                 <h2 className="text-3xl font-bold text-slate-900">Our Mission</h2>
                 <p className="text-slate-600 leading-relaxed">
-                  To accelerate the adoption of climate restoration technologies across Africa by providing scientific validation, strategic frameworks, and community-led execution models that reverse ecological degradation and carbon imbalances.
+                  To build the capacity of marginalized communities—especially women and youth—to lead inclusive citizen science and training initiatives that advance water security, food security, climate, health, and gender justice in Africa.
                 </p>
               </div>
               <div className="bg-slate-50 p-12 rounded-2xl space-y-6 border border-slate-200">
@@ -744,7 +762,7 @@ export default function ClimateInstituteWebsite() {
                 </div>
                 <h2 className="text-3xl font-bold text-slate-900">Our Vision</h2>
                 <p className="text-slate-600 leading-relaxed">
-                  A resilient Africa where ecosystems are thriving, biodiversity is restored, and the continent leads the world in innovative climate repair, ensuring a legacy of abundance for future generations.
+                  To become Africa’s leading Practo-Academia hub, bridging community practice and academic research to achieve gender-responsive justice in health, climate action, and community-led inquiry.
                 </p>
               </div>
             </div>
@@ -761,9 +779,9 @@ export default function ClimateInstituteWebsite() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 { icon: ShieldCheck, title: 'Scientific Integrity', desc: 'Every solution we advocate for is rooted in peer-reviewed science.' },
-                { icon: Users, title: 'Inclusivity', desc: 'Restoration must benefit the local communities who steward the land.' },
+                { icon: Users, title: 'Cooperation', desc: 'We believe in the power of partnerships. We actively build bridges across communities, academia, and practice to ensure our climate restoration efforts are just, inclusive, and have a lasting impact.' },
                 { icon: Award, title: 'Excellence', desc: 'We strive for the highest standards in data, execution, and impact.' },
-                { icon: Heart, title: 'Stewardship', desc: 'We act as guardians of the natural heritage of the African continent.' },
+                { icon: Heart, title: 'Understanding', desc: 'We lead with empathy. We actively listen and learn from local contexts without judgment, ensuring that solutions are co-created, not imposed.' },
               ].map((value, i) => (
                 <div key={i} className="space-y-4 p-8 rounded-2xl bg-white border border-slate-200 hover:shadow-lg transition-all">
                   <div className="w-12 h-12 bg-[#52B788]-100 rounded-xl flex items-center justify-center mx-auto">
@@ -855,21 +873,21 @@ export default function ClimateInstituteWebsite() {
               <ul className="flex flex-col gap-5">
                 <li className="flex items-start gap-3 text-white/70">
                   <MapPin className="w-5 h-5 shrink-0 text-[#52B788]" />
-                  <span>123 Climate Plaza, Nairobi, Kenya</span>
+                  <span> ICAD Center, Nairobi, Kenya</span>
                 </li>
                 <li className="flex items-center gap-3 text-white/70">
                   <Phone className="w-5 h-5 shrink-0 text-[#52B788]" />
-                  <span>+254 20 123 4567</span>
+                  <span>+254 725-216-292</span>
                 </li>
                 <li className="flex items-center gap-3 text-white/70">
                   <Mail className="w-5 h-5 shrink-0 text-[#52B788]" />
-                  <span>info@icra-africa.org</span>
+                  <span>climaterestorationforafrica@gmail.com</span>
                 </li>
               </ul>
             </div>
 
             {/* Newsletter */}
-            <div>
+            {/* <div>
               <h4 className="font-bold text-xl mb-6">Stay Informed</h4>
               <p className="text-white/70 mb-4 text-sm leading-relaxed">
                 Subscribe to our Insights newsletter for the latest in African climate restoration.
@@ -884,15 +902,15 @@ export default function ClimateInstituteWebsite() {
                   Join
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
 
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
             <p>© 2026 Institute of Climate Restoration for Africa. All rights reserved.</p>
-            <div className="flex gap-6">
+            {/* <div className="flex gap-6">
               <a href="#" className="hover:text-[#52B788] transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-[#52B788] transition-colors">Terms of Service</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
