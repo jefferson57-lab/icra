@@ -812,9 +812,10 @@ Throughout her distinguished career, Dr. Wanjala has collaborated with leading o
                 <button className="rounded-full px-8 h-14 bg-[#2D6A4F] text-white hover:bg-[#52B788]-700 shadow-lg transition-all font-semibold">Meet the Team</button>
               </div>
               <div className="flex-1 grid grid-cols-2 gap-4">
-                <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg translate-y-8">
-                  <img src="/images/dr-stella.jpg" alt="Leader" className="w-full h-full object-cover" />
-                </div>
+  <div className="col-span-2 aspect-[3/4] rounded-2xl overflow-hidden shadow-lg translate-y-8">
+    <img src="/images/dr-stella.jpg" alt="Leader" className="w-full h-full object-cover" />
+  </div>
+
                 {/* <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
                   <img src="/images/dr-paul.jpg" alt="Leader" className="w-full h-full object-cover" />
                 </div> */}
